@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="form-cont">
+        <div class="form-order" id="form-order">
+            <h2>احــــجـــز الان عن طريق الموقع</h2>
+            <form action="https://sheetdb.io/api/v1/dy3fc4vpdg1lz" method="post" id="sheet">
+                <input type="text" name="name" id="data[name]" placeholder="الاسم" class="name" required>
+                <input type="text" name="loc" id="data[loc]" placeholder="العنوان مع اقرب نقطة دالة" class="govwith" required>
+                <input type="text" name="phone" id="data[phone]" placeholder="رقم الهاتف" class="phone" required>
+                <p id="error"></p>
+                <button type="submit" class="btn">حجز</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- <form action="https://sheetdb.io/api/v1/dy3fc4vpdg1lz" method="post" id="sheet">
+        <input type="text" name="name" id="data[name]" required>
+        <input type="text" name="phone" id="data[phone]" required>
+        <input type="text" name="loc" id="data[loc]" required>
+        <input type="submit" value="send">
+    </form> -->
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
